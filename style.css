@@ -1,0 +1,264 @@
+body {
+	background-color: #FCFCF7;
+}
+#imgbg {
+    background-image: url("bg3.png");
+    background-color: #cccccc;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+a:link { 
+    text-decoration: none;
+    color: black;
+}
+a:visited { 
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+#imgbgshort {
+    width: 500px;
+    height: 70px;
+    padding: 10px 10px 10px 100px;
+    margin: 10px 100px 10px 10px;
+    background-color: white;
+}
+#imgbglong {
+    background-image: url("bg3.png");
+    background-color: #cccccc;
+    height: 2000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/*  width: 100%;
+    height: 50%;
+    display: flex;
+    background-image: url(sart.png), ;
+    background-repeat: no-repeat;
+    background-clip: content-box;*/
+.paragraph {
+    background-color: #FB8B86;
+    border-radius: 5px 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.profile {
+    padding: 20px;
+    margin: 0px 40px;
+}
+#myhead {
+    background-color: #E87B7B;
+    z-index: 3;
+    position: fixed;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    box-shadow: 0px 5px 5px 1px #888888;
+    padding: 10px 350px 10px 330px;
+    margin:  -16px 0px 0px 0px;
+}
+#sart {
+    margin: -10px;
+}
+#intro {
+    padding: 10px 50px 10px 50px;
+}
+.go-shop-in {
+    box-shadow: 0px 5px 5px 1px #888888;
+    background-color: #FB8B86;
+    border-radius: 5px 50px;
+    margin: 50px;
+}
+.words-to-say{
+    background-color: white;
+}
+.top {
+	padding: 0px 50px;	
+}
+
+.navigate {
+    box-shadow: 2px 5px 5px 1px #888888;
+    z-index: 3;
+    position: fixed;
+	background-color: #E87B7B;
+	border: 5px;
+	border-radius: 15px 50px;
+	margin: 34px 0px 0px 20px;
+    display: flex;
+    /*-webkit-box-align: center;*/
+    /*align-items: center;*/
+}
+.n {
+	padding: 5px 15px;
+}
+.cart{
+	color:  black;
+}
+.logos {
+	margin: 10px 10px 10px 15px;
+}
+.lgs {
+	padding: 20px 20px 20px 20px;
+
+}
+button {
+	border: 2px;
+	border-radius:  10px;
+	background-color: #48E89D;
+}
+.view {
+	padding: 0px 60px 0px 60px;
+	margin: 0px 10px 0px 0px;
+	border: 2px;
+	border-radius:  10px;
+	background-color: #48E89D;
+}
+.cart {
+	padding: 10px;
+}
+.press {
+	margin: 0px 10px 0px 0px;
+}
+.shop-item-image {
+    box-shadow: 0px 5px 5px 1px #888888;
+}
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+.container {
+    border-radius: 5px 50px;
+    background-color: #FB8B86;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.contain {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+.shop-item-title {
+    font-weight: bold;
+}
+ 
